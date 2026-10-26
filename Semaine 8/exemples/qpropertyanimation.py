@@ -20,7 +20,7 @@ class BoutonAnime(QWidget):
         self.animation = QPropertyAnimation(widget_enfant, b"pos")
         self.animation.setStartValue(QPoint(10, 10))
         self.animation.setEndValue(QPoint(500, 500))
-        self.animation.setDuration(2000)
+        self.animation.setDuration(2000000)
         self.animation.start()
 
 

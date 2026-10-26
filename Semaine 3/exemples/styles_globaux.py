@@ -38,7 +38,7 @@ qss = """
     }
 """
 # Doit être appliqué avant de montrer la fenêtre
-app.setStyleSheet(qss)
+
 sg = StyleGlobaux()
 sg.show()
 app.exec()

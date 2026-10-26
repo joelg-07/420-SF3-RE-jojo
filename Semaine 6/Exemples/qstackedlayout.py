@@ -10,7 +10,7 @@ class FenetrePrincipale(QMainWindow):
         disposition_vbox = QVBoxLayout()
         widget_central.setLayout(disposition_vbox)
 
-        self.liste_pages = QComboBox()
+        self.liste_pages = QComb  oBox()
         self.liste_pages.addItem("Page 1, index 0")
         self.liste_pages.addItem("Page 2, index 1")
         self.liste_pages.addItem("Page 3, index 2")

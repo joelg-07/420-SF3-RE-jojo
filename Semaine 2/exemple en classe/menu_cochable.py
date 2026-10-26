@@ -32,6 +32,7 @@ class MenuCochable(QMainWindow):
         self.action_vert.triggered.connect(self.vert_clique)
         self.menu_selection.addAction(self.action_vert)
 
+
     @staticmethod
     def vert_clique(self):
         print("Click, click, boom!")
