@@ -21,8 +21,12 @@ class EvenementsDemo(QFrame):
     def mousePressEvent(self, event: QMouseEvent) -> None:
         # On va changer le QLabel sur un click droit
         if event.button() == Qt.MouseButton.RightButton:
-            self.compteur += 1
+            self.compteur += 17
             self.libelle.setText(str(self.compteur))
+        elif event.button() == Qt.MouseButton.LeftButton:
+            self.compteur -= 300
+            self.libelle.setText(str(self.compteur))
+
         else:
             # On appelle la méthode parente pour gérer les autres boutons normalement
             super().mousePressEvent(event)
