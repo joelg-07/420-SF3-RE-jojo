@@ -13,7 +13,7 @@ class BoutonAnime(QWidget):
         # Créer notre widget à animer, ne pas oublier le parent en paramètre
         widget_enfant = QWidget(self)
         widget_enfant.resize(QSize(50, 50))
-        widget_enfant.setStyleSheet("background-color:blue")
+        widget_enfant.setStyleSheet("background-color:green")
 
         # Créer l'animation sur le widget_enfant pour la propriété "pos";
         # remarquez que le cast de la string en "bytes string"

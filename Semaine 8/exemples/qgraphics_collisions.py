@@ -25,6 +25,7 @@ class GraphicsCollision(QFrame):
         # On redimensionne le pixmap à 64 x 4 pixels en gardant les proportions
         self.robot_pix = self.robot_pix.scaled(QSize(64, 64), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
 
+        self.scene.addRect()
         self.item_robot1 = QGraphicsPixmapItem(self.robot_pix)
         self.item_robot1.setPos(QPointF(50, 50))
 

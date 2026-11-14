@@ -14,7 +14,7 @@ class BitmapAnimation(QMainWindow):
         self.etiquette = QLabel()
         # On se déclare un canevas de 800 x 500
         self.canevas = QPixmap(800, 500)
-        self.canevas.fill(QColorConstants.White)
+        self.canevas.fill(QColorConstants.Green)
         self.etiquette.setPixmap(self.canevas)
         self.bouton_avancer = QPushButton("Avancer")
         self.bouton_avancer.clicked.connect(self.avancer_clicked)
